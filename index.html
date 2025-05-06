@@ -10,6 +10,7 @@
             background-color: limegreen;
         }
     </style>
+    <script src="my_first_script.js"></script>
 </head>
 <body>
     <header>
@@ -23,6 +24,15 @@
         <section>
             <h2>Contact</h2>
             <p>Email: example@example.com</p>
+        </section>
+        <section>
+            <h2>Calculator</h2>
+            <p>Enter three numbers to calculate:</p>
+            <input type="number" id="inputA" placeholder="Enter first number">
+            <input type="number" id="inputB" placeholder="Enter second number">
+            <input type="number" id="inputC" placeholder="Enter third number">
+            <button onclick="calculateAndDisplayResult()">Calculate</button>
+            <p id="result"></p>
         </section>
     </main>
     <footer>
